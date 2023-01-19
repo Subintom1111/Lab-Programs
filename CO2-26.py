@@ -1,0 +1,10 @@
+a=input("Enter the colours a::")
+b=input("Enter the colours b::")
+p=a.split(",")
+q=b.split(",")
+r=set(q)
+s=set(p)
+u=s.difference(r)
+o=list(u)
+print(o)
+
